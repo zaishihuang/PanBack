@@ -21,6 +21,12 @@
 		4B352810193EFFFA00EC2F5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3527F2193EFFFA00EC2F5D /* UIKit.framework */; };
 		4B352818193EFFFA00EC2F5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B352816193EFFFA00EC2F5D /* InfoPlist.strings */; };
 		4B35281A193EFFFA00EC2F5D /* PanBackDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352819193EFFFA00EC2F5D /* PanBackDemoTests.m */; };
+		4B352828193F005500EC2F5D /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352825193F005500EC2F5D /* LCPanGestureRecognizer.m */; };
+		4B352829193F005500EC2F5D /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352827193F005500EC2F5D /* LCPanNavigationController.m */; };
+		4B35282C193F011A00EC2F5D /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35282B193F011A00EC2F5D /* UIView+Snapshot.m */; };
+		4B35282F193F066F00EC2F5D /* LCTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35282E193F066F00EC2F5D /* LCTestOneViewController.m */; };
+		4B8838D8193F213D00CB3FD7 /* LCWebViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */; };
+		4BB09B08193F6BD200B08061 /* README.dm in Resources */ = {isa = PBXBuildFile; fileRef = 4BB09B07193F6BD200B08061 /* README.dm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		4B352815193EFFFA00EC2F5D /* PanBackDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanBackDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4B352817193EFFFA00EC2F5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B352819193EFFFA00EC2F5D /* PanBackDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanBackDemoTests.m; sourceTree = "<group>"; };
+		4B352824193F005500EC2F5D /* LCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanGestureRecognizer.h; sourceTree = "<group>"; };
+		4B352825193F005500EC2F5D /* LCPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanGestureRecognizer.m; sourceTree = "<group>"; };
+		4B352826193F005500EC2F5D /* LCPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanNavigationController.h; sourceTree = "<group>"; };
+		4B352827193F005500EC2F5D /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
+		4B35282A193F011A00EC2F5D /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		4B35282B193F011A00EC2F5D /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		4B35282D193F066F00EC2F5D /* LCTestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTestOneViewController.h; sourceTree = "<group>"; };
+		4B35282E193F066F00EC2F5D /* LCTestOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTestOneViewController.m; sourceTree = "<group>"; };
+		4B8838D6193F213D00CB3FD7 /* LCWebViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWebViewConroller.h; sourceTree = "<group>"; };
+		4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWebViewConroller.m; sourceTree = "<group>"; };
+		4BB09B07193F6BD200B08061 /* README.dm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.dm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +99,7 @@
 		4B3527E2193EFFFA00EC2F5D = {
 			isa = PBXGroup;
 			children = (
+				4BB09B07193F6BD200B08061 /* README.dm */,
 				4B3527F4193EFFFA00EC2F5D /* PanBackDemo */,
 				4B352813193EFFFA00EC2F5D /* PanBackDemoTests */,
 				4B3527ED193EFFFA00EC2F5D /* Frameworks */,
@@ -112,11 +130,16 @@
 		4B3527F4193EFFFA00EC2F5D /* PanBackDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4B352823193F005500EC2F5D /* PanNavigationController */,
 				4B3527FD193EFFFA00EC2F5D /* LCAppDelegate.h */,
 				4B3527FE193EFFFA00EC2F5D /* LCAppDelegate.m */,
 				4B352800193EFFFA00EC2F5D /* Main.storyboard */,
 				4B352803193EFFFA00EC2F5D /* LCViewController.h */,
 				4B352804193EFFFA00EC2F5D /* LCViewController.m */,
+				4B35282D193F066F00EC2F5D /* LCTestOneViewController.h */,
+				4B35282E193F066F00EC2F5D /* LCTestOneViewController.m */,
+				4B8838D6193F213D00CB3FD7 /* LCWebViewConroller.h */,
+				4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */,
 				4B352806193EFFFA00EC2F5D /* Images.xcassets */,
 				4B3527F5193EFFFA00EC2F5D /* Supporting Files */,
 			);
@@ -151,6 +174,19 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		4B352823193F005500EC2F5D /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				4B352826193F005500EC2F5D /* LCPanNavigationController.h */,
+				4B352827193F005500EC2F5D /* LCPanNavigationController.m */,
+				4B352824193F005500EC2F5D /* LCPanGestureRecognizer.h */,
+				4B352825193F005500EC2F5D /* LCPanGestureRecognizer.m */,
+				4B35282A193F011A00EC2F5D /* UIView+Snapshot.h */,
+				4B35282B193F011A00EC2F5D /* UIView+Snapshot.m */,
+			);
+			path = PanNavigationController;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -231,6 +267,7 @@
 			files = (
 				4B352807193EFFFA00EC2F5D /* Images.xcassets in Resources */,
 				4B3527F9193EFFFA00EC2F5D /* InfoPlist.strings in Resources */,
+				4BB09B08193F6BD200B08061 /* README.dm in Resources */,
 				4B352802193EFFFA00EC2F5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B35282C193F011A00EC2F5D /* UIView+Snapshot.m in Sources */,
+				4B35282F193F066F00EC2F5D /* LCTestOneViewController.m in Sources */,
 				4B3527FB193EFFFA00EC2F5D /* main.m in Sources */,
 				4B3527FF193EFFFA00EC2F5D /* LCAppDelegate.m in Sources */,
 				4B352805193EFFFA00EC2F5D /* LCViewController.m in Sources */,
+				4B352828193F005500EC2F5D /* LCPanGestureRecognizer.m in Sources */,
+				4B352829193F005500EC2F5D /* LCPanNavigationController.m in Sources */,
+				4B8838D8193F213D00CB3FD7 /* LCWebViewConroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanBackDemo/PanBackDemo-Prefix.pch";
 				INFOPLIST_FILE = "PanBackDemo/PanBackDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanBackDemo/PanBackDemo-Prefix.pch";
 				INFOPLIST_FILE = "PanBackDemo/PanBackDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +501,7 @@
 				4B35281F193EFFFA00EC2F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B352820193EFFFA00EC2F5D /* Build configuration list for PBXNativeTarget "PanBackDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +510,7 @@
 				4B352822193EFFFA00EC2F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
