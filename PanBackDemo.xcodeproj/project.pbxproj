@@ -28,6 +28,7 @@
 		4B8838D8193F213D00CB3FD7 /* LCWebViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */; };
 		4BE4519F193F724F007B094E /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE4519E193F724F007B094E /* demo.png */; };
 		4BE451A1193F7471007B094E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BE451A0193F7471007B094E /* README.md */; };
+		4BE451A3193F750B007B094E /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE451A2193F750B007B094E /* demo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWebViewConroller.m; sourceTree = "<group>"; };
 		4BE4519E193F724F007B094E /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		4BE451A0193F7471007B094E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4BE451A2193F750B007B094E /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				4BE4519E193F724F007B094E /* demo.png */,
+				4BE451A2193F750B007B094E /* demo2.png */,
 			);
 			path = Images;
 			sourceTree = SOURCE_ROOT;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE451A1193F7471007B094E /* README.md in Resources */,
+				4BE451A3193F750B007B094E /* demo2.png in Resources */,
 				4B352807193EFFFA00EC2F5D /* Images.xcassets in Resources */,
 				4BE4519F193F724F007B094E /* demo.png in Resources */,
 				4B3527F9193EFFFA00EC2F5D /* InfoPlist.strings in Resources */,
