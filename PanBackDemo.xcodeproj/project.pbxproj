@@ -27,6 +27,7 @@
 		4B35282F193F066F00EC2F5D /* LCTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B35282E193F066F00EC2F5D /* LCTestOneViewController.m */; };
 		4B8838D8193F213D00CB3FD7 /* LCWebViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */; };
 		4BB09B08193F6BD200B08061 /* README.dm in Resources */ = {isa = PBXBuildFile; fileRef = 4BB09B07193F6BD200B08061 /* README.dm */; };
+		4BE4519F193F724F007B094E /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE4519E193F724F007B094E /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		4B8838D6193F213D00CB3FD7 /* LCWebViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWebViewConroller.h; sourceTree = "<group>"; };
 		4B8838D7193F213D00CB3FD7 /* LCWebViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWebViewConroller.m; sourceTree = "<group>"; };
 		4BB09B07193F6BD200B08061 /* README.dm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.dm; sourceTree = "<group>"; };
+		4BE4519E193F724F007B094E /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		4B3527F5193EFFFA00EC2F5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4BE4519D193F7237007B094E /* Images */,
 				4B3527F6193EFFFA00EC2F5D /* PanBackDemo-Info.plist */,
 				4B3527F7193EFFFA00EC2F5D /* InfoPlist.strings */,
 				4B3527FA193EFFFA00EC2F5D /* main.m */,
@@ -186,6 +189,14 @@
 				4B35282B193F011A00EC2F5D /* UIView+Snapshot.m */,
 			);
 			path = PanNavigationController;
+			sourceTree = SOURCE_ROOT;
+		};
+		4BE4519D193F7237007B094E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4519E193F724F007B094E /* demo.png */,
+			);
+			path = Images;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B352807193EFFFA00EC2F5D /* Images.xcassets in Resources */,
+				4BE4519F193F724F007B094E /* demo.png in Resources */,
 				4B3527F9193EFFFA00EC2F5D /* InfoPlist.strings in Resources */,
 				4BB09B08193F6BD200B08061 /* README.dm in Resources */,
 				4B352802193EFFFA00EC2F5D /* Main.storyboard in Resources */,
